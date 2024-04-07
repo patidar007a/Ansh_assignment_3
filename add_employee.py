@@ -1,11 +1,4 @@
-import src.menu as menu
-def main():
-    menu.main_menu()
-if __name__ == "__main__":
-
-
-
-   def add_employee(employees_data: list, employees_ID: int):
+def add_employee(employees_data: list, employees_ID: int):
     first_name_of_employee =input("Enter your first name:")
     last_name_of_employee =input("Enter your last name:")
     dob=input("Enter your date of birth:")
