@@ -27,7 +27,11 @@ def main_menu():
         choice = input("Enter your choice: ")
 
         if choice == "1":
-            add_employee()
+            first_name = input("Enter employee's first name: ")
+            last_name = input("Enter employee's last name: ")
+            dob = input("Enter employee's date of birth (YYYY-MM-DD): ")
+            department = input("Enter employee's department: ")
+            add_employee(first_name,last_name,dob,department)
         elif choice == "2":
             delete_employee()
         elif choice == "3":

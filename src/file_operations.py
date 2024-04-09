@@ -15,7 +15,7 @@ def read_employees():
     """
 
 
-def write_employees():
+def write_employees(list):
     """
     Write Employees Function
 
