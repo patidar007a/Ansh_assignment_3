@@ -31,7 +31,8 @@ def main_menu():
             last_name = input("Enter employee's last name: ")
             dob = input("Enter employee's date of birth (YYYY-MM-DD): ")
             department = input("Enter employee's department: ")
-            add_employee(first_name,last_name,dob,department)
+            salary=input("Enter your salary:")
+            add_employee(first_name,last_name,dob,department,salary)
         elif choice == "2":
             delete_employee()
         elif choice == "3":

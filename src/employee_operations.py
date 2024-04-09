@@ -6,7 +6,7 @@ This module provides functions for adding, deleting, and updating employee infor
 from file_operations import read_employees, write_employees
 
 
-def add_employee(first_name, last_name, dob, department):
+def add_employee(first_name, last_name, dob, department, salary):
     """
     Add Employee Function
 
@@ -24,13 +24,13 @@ def add_employee(first_name, last_name, dob, department):
         'last_name': last_name,
         'dob': dob,
         'department': department,
-        'salary': "salary"
+        'salary': salary
     }
     list_emp.append(new_employee)
     write_employees(list_emp)
 
 
-def delete_employee():
+def delete_employee(id):
     """
     Delete Employee Function
 

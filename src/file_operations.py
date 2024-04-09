@@ -13,6 +13,7 @@ def read_employees():
     Returns:
         list: A list containing employee data read from the text file.
     """
+    
 
 
 def write_employees(list):
@@ -24,3 +25,4 @@ def write_employees(list):
     Parameters:
         employees_data (list): A list containing employee data to be written to the text file.
     """
+    print(list)
